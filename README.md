@@ -18,7 +18,8 @@ You can change the content of the application by changing the values of the stri
 In order to change the image, you can replace the `src/main/res/drawable/picture.png` file with your own image.
 
 ## Screenshots
-![Light Mode 1](screenshots/1-light.png)
-![Light Mode 2](screenshots/2-light.png)
-![Dark Mode 1](screenshots/1-dark.png)
-![Dark Mode 2](screenshots/2-dark.png)
+
+Light Mode                               | Dark Mode
+:---------------------------------------:|:---------------------------------------:
+![Light Mode 1](screenshots/1-light.png) | ![Dark Mode 1](screenshots/1-dark.png)
+![Light Mode 2](screenshots/2-light.png) | ![Dark Mode 2](screenshots/2-dark.png)
