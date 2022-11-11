@@ -43,6 +43,17 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/profileImage" />
 
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/nightModeSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:minHeight="48dp"
+                android:text="@string/night_mode"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name" />
+
             <TextView
                 android:id="@+id/title1"
                 android:layout_width="wrap_content"
@@ -52,7 +63,7 @@
                 android:text="@string/title_1"
                 android:textSize="24sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/name" />
+                app:layout_constraintTop_toBottomOf="@+id/nightModeSwitch" />
 
             <TextView
                 android:id="@+id/paragraph1"
@@ -116,7 +127,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/paragraph3" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+       </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
