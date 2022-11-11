@@ -3,7 +3,7 @@
     <string name="profile_image">profile image</string>
     <string name="name">Parsa Mohammadian</string>
     <string name="call_me">Call Me!</string>
-    <string name="number">+989036330428</string>
+    <string name="number">tel:+989036330428</string>
     <string name="title_1">Title 1</string>
     <string name="paragraph_1">Paragraph 1</string>
     <string name="title_2">Title 2</string>

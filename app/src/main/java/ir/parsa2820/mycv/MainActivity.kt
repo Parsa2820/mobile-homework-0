@@ -5,7 +5,6 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import com.google.android.material.switchmaterial.SwitchMaterial
 
@@ -13,12 +12,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val callMeButton: Button = findViewById(R.id.callMeButton)
         callMeButton.setOnClickListener {
-            val number: Uri = Uri.parse(R.string.number.toString())
-            val toast: Toast = Toast.makeText(this, number.toString(), Toast.LENGTH_SHORT)
-            toast.show()
-            val intent = Intent(Intent.ACTION_DIAL, number)
+            val number: String = getString(R.string.number)
+            val numberUri: Uri = Uri.parse(number)
+            val intent = Intent(Intent.ACTION_DIAL, numberUri)
             startActivity(intent)
         }
 
