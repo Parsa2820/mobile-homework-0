@@ -4,4 +4,10 @@
     <string name="name">Parsa Mohammadian</string>
     <string name="call_me">Call Me!</string>
     <string name="number">+989036330428</string>
+    <string name="title_1">Title 1</string>
+    <string name="paragraph_1">Paragraph 1</string>
+    <string name="title_2">Title 2</string>
+    <string name="paragraph_2">Paragraph 2</string>
+    <string name="title_3">Title 3</string>
+    <string name="paragraph_3">Paragraph 3</string>
 </resources>
