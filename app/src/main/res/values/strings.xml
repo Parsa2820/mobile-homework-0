@@ -4,11 +4,34 @@
     <string name="name">Parsa Mohammadian</string>
     <string name="call_me">Call Me!</string>
     <string name="number">tel:+989036330428</string>
-    <string name="title_1">Title 1</string>
-    <string name="paragraph_1">Paragraph 1</string>
-    <string name="title_2">Title 2</string>
-    <string name="paragraph_2">Paragraph 2</string>
-    <string name="title_3">Title 3</string>
-    <string name="paragraph_3">Paragraph 3</string>
+    <string name="title_1">Experience</string>
+    <string name="paragraph_1">
+    Mohaymen ICT Group, DevOps Engineer \n
+    Jul 2022 - Present · 5 mos \n
+    \n
+    Mohaymen ICT Group, Software Engineer \n
+    Oct 2020 - Jul 2022 · 1 yr 10 mos
+    </string>
+    <string name="title_2">Education</string>
+    <string name="paragraph_2">
+    Sharif University of Technology, Computer Engineering \n
+    2019 - 2023 · 5 yrs \n
+    \n
+    Allameh Helli 3 High School, High School Diploma \n
+    2016 - 2019 · 3 yrs
+    </string>
+    <string name="title_3">Skills</string>
+    <string name="paragraph_3">
+    + Python \n
+    + Java \n
+    + C# \n
+    + C \n
+    + Git \n
+    + Linux \n
+    + Docker \n
+    + Kubernetes \n
+    + Ansible \n
+    + Terraform
+    </string>
     <string name="night_mode">Night Mode</string>
 </resources>
